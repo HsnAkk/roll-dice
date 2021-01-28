@@ -1,0 +1,108 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f5f5;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Helvetica;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner*/
+
+img {
+    width: 470px;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* students*/
+
+.outborder {
+    width: 466px;
+    padding: 8px;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+}
+.students {
+    width: 450px;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.students > div {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px dotted #f5f5f5;
+}
+
+/* buttons */
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+button:focus {
+    outline: none;
+}
+
+button:nth-of-type(1) {
+    background-color: rgb(60, 155, 238);
+}
+button:nth-of-type(1):hover {
+    border: 3px solid rgb(60, 155, 238);
+    color: rgb(60, 155, 238);
+    background: #fff;
+    line-height: 39px;
+    cursor: pointer;
+}
+button:nth-of-type(2) {
+    background-color: rgb(169, 81, 245);
+}
+button:nth-of-type(2):hover {
+    border: 3px solid rgb(169, 81, 245);
+    color: rgb(169, 81, 245);
+    background: #fff;
+    line-height: 39px;
+    cursor: pointer;
+}
+button:nth-of-type(3) {
+    background-color: rgb(245, 144, 36);
+}
+button:nth-of-type(3):hover {
+    border: 3px solid rgb(245, 144, 36);
+    color: rgb(245, 144, 36);
+    background: #fff;
+    line-height: 39px;
+    cursor: pointer;
+}
