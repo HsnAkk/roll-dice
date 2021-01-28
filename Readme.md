@@ -1,6 +1,6 @@
 # Roll Dice to select a student
 
-![Roll Dice](./rolldice.jpg "Roll Dice")
+![Roll Dice](./images/rolldice.jpg "Roll Dice")
 
 A roll dice program for teachers to select randomly one of the students in class.
 
