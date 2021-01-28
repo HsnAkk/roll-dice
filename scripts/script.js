@@ -70,9 +70,11 @@ select.addEventListener('click', function () {
         console.log(arrPeople);
         document.querySelector(`.student_${num}`).style.background = "linear-gradient(to right, #c2e59c, #64b3f4)";
         document.querySelector(`.student_${num}`).style.border = '3px solid dodgerblue';
+        document.querySelector(`.student_${num}`).style.lineHeight = '44px';
 
         setTimeout(function () {
             document.querySelector(`.student_${num}`).style.border = 'none';
+            document.querySelector(`.student_${num}`).style.lineHeight = '50px';
         }, 3000);
 
         setTimeout(function () {
@@ -90,9 +92,11 @@ select.addEventListener('click', function () {
         document.querySelector(`.student_${num}`).style.background =
             "linear-gradient(to right, #c2e59c, #64b3f4)";
         document.querySelector(`.student_${num}`).style.border = '3px solid dodgerblue';
+        document.querySelector(`.student_${num}`).style.lineHeight = '44px';
     
         setTimeout(function () {
             document.querySelector(`.student_${num}`).style.border = 'none';
+            document.querySelector(`.student_${num}`).style.lineHeight = '50px';
         }, 3000);
     }   
 });
